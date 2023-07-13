@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loginpane" prefHeight="441.0" prefWidth="710.0" style="-fx-background-color: #FBD85D;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginForm">
+   <children>
+      <JFXTextField fx:id="txtUserName" layoutX="153.0" layoutY="155.0" prefHeight="46.0" prefWidth="434.0" promptText="enter user name" style="-fx-background-color: #FFF4F4;" />
+      <JFXButton buttonType="RAISED" layoutX="263.0" layoutY="221.0" onAction="#btnJoinOnAction" prefHeight="46.0" prefWidth="237.0" style="-fx-background-color: #97FEED; -fx-background-radius: 15;" text="JOIN">
+         <font>
+            <Font name="Calibri Bold Italic" size="23.0" />
+         </font></JFXButton>
+      <Label alignment="CENTER" layoutX="134.0" layoutY="21.0" prefHeight="59.0" prefWidth="443.0" style="-fx-background-color: #071952; -fx-background-radius: 10;" text="WELCOME" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="25.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
